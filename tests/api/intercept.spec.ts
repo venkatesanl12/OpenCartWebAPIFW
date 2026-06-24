@@ -38,7 +38,7 @@ test('mock search data api', async ({ page }) => {
     });
 
     await page.goto('https://abc.com/index.php?route=product/search&search=macbook');
-    await page.pause();
+   // await page.pause();
 
     let fakeJson = await page.evaluate(async () => {
         let fakeRes = await fetch('https://abc.com/index.php?route=product/search&search=macbook')
