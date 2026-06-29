@@ -27,3 +27,12 @@ for (const row of productData) {
 };
 
 
+
+//common tests:
+test('@smoke comp logo exists on product page', async ({ basePage }) => {
+    expect(await basePage.isLogoVisible()).toBeTruthy();
+});
+
+test('@smoke footers exist on product page', async ({ basePage }) => {
+    expect(await basePage.getPageFootersCount()).toBe(16);
+});

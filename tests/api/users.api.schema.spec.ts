@@ -81,7 +81,7 @@ test('GET -- get a user', async ({ apiHelper }) => {
 });
 
 
-test('GET -- get all users', async ({ apiHelper }) => {
+test('@smoke GET -- get all users', async ({ apiHelper }) => {
 
     //get - get a user
     let getUsersResponse = await apiHelper.get(`/public/v2/users`, AUTH_HEADER);

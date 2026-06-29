@@ -16,7 +16,7 @@ test.beforeEach(async ({ page }) => {
     homePage = new HomePage(page);
 });
 
-test('home page title test', async ( {page} ) => {
+test('@smoke home page title test', async ( {page} ) => {
     const pageTitle = await homePage.getPageTitle();
     console.log('home page title::', pageTitle);
     expect(pageTitle).toBe('My Account');
@@ -25,12 +25,12 @@ test('home page title test', async ( {page} ) => {
 });
 
 
-test('logout link exist test', async () => {
+test('@smoke logout link exist test', async () => {
     expect(await homePage.isLogoutLinkExist()).toBeTruthy();
 });
 
 
-test('home page headers exist test @junesprint', async () => {
+test('@smoke home page headers exist test @junesprint', async () => {
     let allHeaders = await homePage.getHomePageHeaders();
     console.log('home page headers: ', allHeaders);
     expect.soft(allHeaders).toHaveLength(4);

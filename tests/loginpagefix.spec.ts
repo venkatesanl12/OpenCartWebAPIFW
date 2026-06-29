@@ -7,17 +7,17 @@ test.beforeEach(async ({ loginPage }) => {
     await loginPage.goToLoginPage();
 });
 
-test('login page title test', async ({ loginPage }) => {
+test('@smoke login page title test', async ({ loginPage }) => {
     const pageTitle = await loginPage.getPageTitle();
     console.log('login page title', pageTitle);
     expect(pageTitle).toBe('Account Login');
 });
 
-test('forgot pwd link exist test', async ({ loginPage }) => {
+test('@regression forgot pwd link exist test', async ({ loginPage }) => {
     expect(await loginPage.isForgotPwdLinkExist()).toBeTruthy();
 });
 
-test('user is able to login to app test', async ({ loginPage, homePage }) => {
+test('@smoke user is able to login to app test', async ({ loginPage, homePage }) => {
   //  await loginPage.doLogin('pwtestbatch@open.com', 'pw123');
     await loginPage.doLogin(process.env.USERNAME!, process.env.PASSWORD!);
     console.log(process.env.USER_NAME!);
@@ -26,7 +26,7 @@ test('user is able to login to app test', async ({ loginPage, homePage }) => {
 });
 
 //DD_1. sequence mode -- only 1 test is running with test data one by one using testData from fixture
-test('login to app using wrong credentials with Data driven test', async ({ loginPage, testData }) => {
+test('@regression login to app using wrong credentials with Data driven test', async ({ loginPage, testData }) => {
     for (let row of testData) {
         await loginPage.doLogin(row.username, row.password);
         expect(await loginPage.isInvalidLoginErrorDisplayed()).toBeTruthy();
@@ -61,4 +61,14 @@ for (let row of loginJSONData) {
     });
 };
 
+
+//csv vs excel vs json
+//common tests:
+test('@smoke comp logo exists on product page', async ({ basePage }) => {
+    expect(await basePage.isLogoVisible()).toBeTruthy();
+});
+
+test('@smoke footers exist on product page', async ({ basePage }) => {
+    expect(await basePage.getPageFootersCount()).toBe(16);
+})
 
