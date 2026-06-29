@@ -1,0 +1,35 @@
+API GET response:  APIResponse: 200 OK
+  Date: Mon, 29 Jun 2026 08:39:58 GMT
+  Content-Type: application/json; charset=utf-8
+  Transfer-Encoding: chunked
+  Connection: keep-alive
+  Cache-Control: max-age=0, private, must-revalidate
+  Content-Security-Policy-Report-Only: default-src 'self'; script-src 'self' https://pagead2.googlesyndication.com 'nonce-RSzIdl2jzHStxqX+3GdvrA=='; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; img-src 'self' data: https:; font-src 'self' https://fonts.gstatic.com; connect-src 'self' https://pagead2.googlesyndication.com https://ep1.adtrafficquality.google; frame-src https://googleads.g.doubleclick.net https://ep2.adtrafficquality.google https://www.google.com; object-src 'none'; frame-ancestors 'none'; base-uri 'self'; form-action 'self'
+  Etag: W/"4d9bce369f2efb4fdd65ced231f37efd"
+  Feature-Policy: camera 'none'; gyroscope 'none'; microphone 'none'; usb 'none'; fullscreen 'self'
+  Referrer-Policy: strict-origin-when-cross-origin
+  Strict-Transport-Security: max-age=63072000; includeSubDomains
+  Vary: Origin
+  X-Content-Type-Options: nosniff
+  X-Frame-Options: SAMEORIGIN
+  X-Links-Current: https://gorest.co.in/public/v2/users?page=1
+  X-Links-Next: https://gorest.co.in/public/v2/users?page=2
+  X-Links-Previous: 
+  X-Pagination-Limit: 10
+  X-Pagination-Page: 1
+  X-Pagination-Pages: 302
+  X-Pagination-Total: 3014
+  X-Permitted-Cross-Domain-Policies: none
+  X-Ratelimit-Limit: 40
+  X-Ratelimit-Remaining: 39
+  X-Ratelimit-Reset: 3
+  X-Request-Id: 07cb466a-d8f2-4f50-960c-e08f7bfd0e16
+  X-Runtime: 0.018193
+  X-Xss-Protection: 0
+  Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+  Cf-Cache-Status: DYNAMIC
+  Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=KI6rfBDdUPRGxuGsP2%2FUzpOlh2gzRYvqDVRP0pgyRGH%2BQDExHHpwENT7HMEVsXP%2B2JtMvyQbcpCVYzxm9ZyAcKVIJMx5TokOHozg7TO3j4kn0TKOz9m9fyMj8VnZIwQ%3D"}]}
+  Content-Encoding: br
+  Server: cloudflare
+  CF-RAY: a1339fab1e04af1b-SJC
+  alt-svc: h3=":443"; ma=86400

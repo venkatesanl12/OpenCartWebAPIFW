@@ -1,0 +1,4 @@
+404
+Not Found
+{ message: 'Resource not found' }
+https://gorest.co.in/public/v2/users/8501947
