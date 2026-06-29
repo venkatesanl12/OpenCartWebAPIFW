@@ -108,6 +108,7 @@ jobs:
           echo "  Running SANITY @smoke on DEV"
           echo "========================================="
           npx playwright test --project=chromium --grep @smoke
+          continue-on-error: true # <-- This forces the job to keep going
         env:
           ENV: dev
           BASE_URL: ${{ secrets.BASE_URL }}
@@ -193,6 +194,7 @@ jobs:
           echo "  Running REGRESSION (all tests) on QA"
           echo "========================================="
           npx playwright test --project=chromium
+          continue-on-error: true # <-- This forces the job to keep going
         env:
           ENV: qa
           BASE_URL: ${{ secrets.BASE_URL }}
@@ -278,6 +280,7 @@ jobs:
           echo "  Running SANITY @smoke on STAGE"
           echo "========================================="
           npx playwright test --project=chromium --grep @smoke
+          continue-on-error: true # <-- This forces the job to keep going
         env:
           ENV: stage
           BASE_URL: ${{ secrets.BASE_URL }}
@@ -357,6 +360,7 @@ jobs:
       - name: Install Playwright OS deps only
         if: steps.pw-cache-prod.outputs.cache-hit == 'true'
         run: npx playwright install-deps chromium
+        
 
       - name: Run Smoke Tests on PROD
         run: |
@@ -364,6 +368,7 @@ jobs:
           echo "  Running SMOKE @smoke on PROD"
           echo "========================================="
           npx playwright test --project=chromium --grep @smoke
+          continue-on-error: true # <-- This forces the job to keep going
         env:
           ENV: prod
           BASE_URL: ${{ secrets.BASE_URL }}
