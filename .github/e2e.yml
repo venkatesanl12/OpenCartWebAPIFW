@@ -1,6 +1,6 @@
 # ═══════════════════════════════════════════════════════════════
-# FILE: .github/workflows/master-pipeline.yml
-# REPO: naveenanimation20/OpenCartWebAPIFramework
+# FILE: .github/workflows/e2e.yml
+# REPO: venkatesanl12/OpenCartWebAPIFW
 # DEV REPO: jglick/simple-maven-project-with-tests
 # ═══════════════════════════════════════════════════════════════
 
