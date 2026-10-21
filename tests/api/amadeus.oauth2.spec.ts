@@ -54,7 +54,7 @@ test('@regression GET -- get location data', async ({ request }) => {
     console.log("================");
     let locationJson = await locationResponse.json();
     console.log(locationJson.meta.count);
- console.log("================");
+    console.log("================");
     let location1 = locationJson.data[0];
     console.log("location is ::" + location1);
     
