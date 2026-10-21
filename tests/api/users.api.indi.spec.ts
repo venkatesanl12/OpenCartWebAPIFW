@@ -71,7 +71,7 @@ test('@regression DELETE - delete a user', async ({ apiHelper }) => {
     //create a user: POST
     let userResponse = await createUser(apiHelper);
 
-    //update the user:
+    //delete the user:
     let response = await apiHelper.delete(`/public/v2/users/${userResponse.id}`, AUTH_HEADER);
     expect(response.status).toBe(204);
 
