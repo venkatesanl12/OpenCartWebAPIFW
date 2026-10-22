@@ -1,0 +1,35 @@
+API GET response:  APIResponse: 200 OK
+  Date: Thu, 22 Oct 2026 19:04:37 GMT
+  Content-Type: application/json; charset=utf-8
+  Transfer-Encoding: chunked
+  Connection: keep-alive
+  Cache-Control: max-age=0, private, must-revalidate
+  content-security-policy-report-only: default-src 'self'; script-src 'self' https://pagead2.googlesyndication.com 'nonce-tiNH/ykf1DsZeT918BSoNQ=='; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; img-src 'self' data: https:; font-src 'self' https://fonts.gstatic.com; connect-src 'self' https://pagead2.googlesyndication.com https://ep1.adtrafficquality.google; frame-src https://googleads.g.doubleclick.net https://ep2.adtrafficquality.google https://www.google.com; object-src 'none'; frame-ancestors 'none'; base-uri 'self'; form-action 'self'
+  etag: W/"d4e8f759acf6ab2bd0cfba025a3ab319"
+  feature-policy: camera 'none'; gyroscope 'none'; microphone 'none'; usb 'none'; fullscreen 'self'
+  referrer-policy: strict-origin-when-cross-origin
+  strict-transport-security: max-age=63072000; includeSubDomains
+  vary: Origin
+  x-content-type-options: nosniff
+  x-frame-options: SAMEORIGIN
+  x-links-current: https://gorest.co.in/public/v2/users?page=1
+  x-links-next: https://gorest.co.in/public/v2/users?page=2
+  x-links-previous: 
+  x-pagination-limit: 10
+  x-pagination-page: 1
+  x-pagination-pages: 301
+  x-pagination-total: 3004
+  x-permitted-cross-domain-policies: none
+  x-ratelimit-limit: 40
+  x-ratelimit-remaining: 39
+  x-ratelimit-reset: 3
+  x-request-id: 32984474-094d-42b8-b68d-583367968ca2
+  x-runtime: 0.064259
+  x-xss-protection: 0
+  Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+  cf-cache-status: DYNAMIC
+  Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=uPPJ%2BsX7FovLfxdq4%2FFNTd%2F5prOYVxUPArHWnmU4vmU1PevbKcfAw8H0ff5z1r5qTNRjXvLpTy8C%2FHOmLjAfIqUgxCGT2KJ%2FUvDqaYmp%2BM2lWnDlTme4P176gb5uZ0E%3D"}]}
+  Content-Encoding: br
+  Server: cloudflare
+  CF-RAY: a4eac4cdea4057af-YYZ
+  alt-svc: h3=":443"; ma=86400
