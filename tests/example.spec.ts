@@ -1,4 +1,4 @@
-// Example of a Playwright test using TypeScript
+// Example of a Playwright test using TypeScript : Testing the Playwright website for title and link functionality
 import { test, expect } from '@playwright/test';
 
 test('has title', async ({ page }) => {
