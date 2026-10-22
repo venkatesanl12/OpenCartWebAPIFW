@@ -1,0 +1,35 @@
+API GET response:  APIResponse: 200 OK
+  Date: Thu, 22 Oct 2026 18:49:02 GMT
+  Content-Type: application/json; charset=utf-8
+  Transfer-Encoding: chunked
+  Connection: keep-alive
+  Cache-Control: max-age=0, private, must-revalidate
+  content-security-policy-report-only: default-src 'self'; script-src 'self' https://pagead2.googlesyndication.com 'nonce-Qt872evn9BEO/88+gp4umg=='; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; img-src 'self' data: https:; font-src 'self' https://fonts.gstatic.com; connect-src 'self' https://pagead2.googlesyndication.com https://ep1.adtrafficquality.google; frame-src https://googleads.g.doubleclick.net https://ep2.adtrafficquality.google https://www.google.com; object-src 'none'; frame-ancestors 'none'; base-uri 'self'; form-action 'self'
+  etag: W/"d4e8f759acf6ab2bd0cfba025a3ab319"
+  feature-policy: camera 'none'; gyroscope 'none'; microphone 'none'; usb 'none'; fullscreen 'self'
+  referrer-policy: strict-origin-when-cross-origin
+  strict-transport-security: max-age=63072000; includeSubDomains
+  vary: Origin
+  x-content-type-options: nosniff
+  x-frame-options: SAMEORIGIN
+  x-links-current: https://gorest.co.in/public/v2/users?page=1
+  x-links-next: https://gorest.co.in/public/v2/users?page=2
+  x-links-previous: 
+  x-pagination-limit: 10
+  x-pagination-page: 1
+  x-pagination-pages: 301
+  x-pagination-total: 3004
+  x-permitted-cross-domain-policies: none
+  x-ratelimit-limit: 40
+  x-ratelimit-remaining: 39
+  x-ratelimit-reset: 3
+  x-request-id: 0fed3a43-dcea-4246-b1e3-b357080e061f
+  x-runtime: 0.079897
+  x-xss-protection: 0
+  Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+  cf-cache-status: DYNAMIC
+  Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=uCciiJplYhfRYf4QxiRHKVa8YjPLGDYbTIsSbG1ay9BsNn6MxVoKFdTiHJqNX4fho55Qo02bJTHl7nCx%2FiYhRbLvBn57GuOGbVlC%2Bi1RbzN23js%2BkcuyoBeuUSc8fUM%3D"}]}
+  Content-Encoding: br
+  Server: cloudflare
+  CF-RAY: a4eaadf8b868fc61-MCI
+  alt-svc: h3=":443"; ma=86400
